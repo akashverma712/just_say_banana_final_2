@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel=stylesheet href="style.css">
+  <title>Document</title>
+  <link rel="icon" type="image/png" href="/images/just_say_banana.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Doto:wght@100..900&family=Gloria+Hallelujah&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Parkinsans:wght@300..800&family=Play:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Doto:wght@100..900&family=Gloria+Hallelujah&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Parkinsans:wght@300..800&family=Play:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css">
+
+  <link rel="stylesheet" href="response.css">
+
+
+</head>
+
+<body class="overflow-hidden">
+
+  <div id="loader">
+
+    <img class="floating-image" src="images/star.png" style="top: 10%; left: 20%;" />
+    <img class="floating-image" src="images/white.png" style="top: 25%; left: 65%;" />
+    <img class="floating-image" src="images/star.png" style="top: 40%; left: 30%;" />
+    <img class="floating-image" src="images/white.png" style="top: 60%; left: 80%;" />
+    <img class="floating-image" src="images/star.png" style="top: 75%; left: 10%;" />
+    <img class="floating-image" src="images/white.png" style="top: 55%; left: 50%;" />
+    <img class="floating-image" src="images/star.png" style="top: 20%; left: 75%;" />
+    <img class="floating-image" src="images/white.png" style="top: 85%; left: 35%;" />
+
+    <img src="./images/just_say_banana.png" id="logo" alt="Just Say Banana Logo" />
+
+
+    <div id="text" class="font-bold font-['Gloria_Hallelujah']">
+
+      <span class="letter white">J</span>
+      <span class="letter white">U</span>
+      <span class="letter white">S</span>
+      <span class="letter white">T</span>
+      <span class="letter white"> </span>
+      <span class="letter white">S</span>
+      <span class="letter white">A</span>
+      <span class="letter white">Y</span>
+      <span class="letter pink"> </span>
+      <span class="letter pink">B</span>
+      <span class="letter pink">A</span>
+      <span class="letter pink">N</span>
+      <span class="letter pink">A</span>
+      <span class="letter pink">N</span>
+      <span class="letter pink">A</span>
+    </div>
+  </div>
+
+
+  <div id="main-content" class="relative">
+
+
+
+
+
+    <!-- SECTION 6: -->
+    <div id="section6" class="absolute">
+      <div class="relative w-full h-screen bg-yellow-300 font-['Gloria_Hallelujah'] flex flex-col overflow-hidden">
+    
+        <!-- Logo -->
+        <img src="./images/just_say_banana.png" alt="Just Say Banana Logo6"
+          class="absolute top-4 left-4 w-[140px] sm:w-[180px] h-auto logo" />
+    
+        <!-- Main Content -->
+        <div
+          class="flex-grow overflow-y-auto flex flex-col md:flex-row items-center justify-center gap-6 sm:gap-10 px-4 sm:px-8 pt-24 sm:pt-28 md:pt-16">
+    
+          <!-- Book Image -->
+          <div class="w-full md:w-2/5 flex justify-center items-center md:pl-16">
+            <div class="relative group" id="book-container">
+    
+              <!-- ✅ Fixed Anchor tag -->
+              <a href="https://heyzine.com/flip-book/d3d15926d4.html" target="_main" id="bookLink" class="block">
+                <img src="./images/book1.png" alt="Book"
+                  class="w-[60vw] max-w-[400px] min-w-[180px] sm:max-w-[350px] md:max-w-[400px] h-auto max-h-[300px] sm:max-h-[380px] md:max-h-[none] drop-shadow-xl transition-all duration-500 ease-in-out book" />
+              </a>
+    
+              <!-- Floating Button-like Text -->
+              <div id="floating-text"
+                class="pointer-events-none absolute left-0 top-0 hidden z-20 bg-pink-400 text-white text-[14px] sm:text-[16px] px-4 sm:px-6 py-1 sm:py-1.5 rounded-full border-2 border-white font-semibold shadow-md transition duration-200 ease-in-out">
+                Click to Preview
+              </div>
+            </div>
+          </div>
+    
+          <!-- Text & CTA -->
+          <div
+            class="w-full flex flex-col justify-center items-center text-center gap-4 px-4 sm:px-6 md:px-8 pb-16 sm:pb-20">
+            <p
+              class="text-white text-[clamp(1.3rem,3vw,2.4rem)] leading-tight max-w-[95%] sm:max-w-[90%] md:max-w-[80%]">
+              <span class="text-[#FF499C] font-bold">Ready?</span> Set. Go!<br>
+              Just click the link below to <span class="text-[#FF499C] font-bold">Amazon</span><br>
+              and start saying <span class="text-[#FF499C] font-bold">Banana</span> to help make our world a kinder
+              place.
+            </p>
+    
+            <!-- Arrow + Button -->
+            <div class="relative mt-2 sm:mt-4 flex items-center justify-center gap-3 sm:gap-5">
+              <sup class="relative">
+                <img src="./images/arrow1.png" alt="Arrow1"
+                  class="w-[40px] sm:w-[120px] md:w-[200px] absolute -top-[60px] -left-[70px]" />
+              </sup>
+              <a href="https://www.amazon.com" target="_blank"
+                class="bg-pink-400 text-white text-[16px] sm:text-[18px] md:text-[22px] px-6 sm:px-10 py-2 sm:py-3 rounded-full border-4 border-white font-semibold transition hover:scale-105 shadow-md"
+                id="buyBtn">
+                Buy me
+              </a>
+              <sub class="flex flex-col justify-end">
+                <img src="./images/misc1.png" alt="misc2" class="w-[30px] sm:w-[45px]" />
+              </sub>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Footer -->
+        <footer
+          class="w-full bg-pink-500 text-white text-xs sm:text-sm md:text-base px-4 sm:px-10 py-2 flex flex-col sm:flex-row justify-between items-center gap-1 sm:gap-4">
+          <p class="text-center sm:text-left font-['Inter']">All rights reserved The Loft Agency LLC, © 2025</p>
+          <div class="flex gap-2 sm:gap-4 items-center font-['Inter']">
+            <a href="#" class="hover:underline">Term of Use</a>
+            <span>|</span>
+            <a href="#" class="hover:underline">Privacy Policy</a>
+            <a href="https://www.instagram.com/theloftent/" target="_blank">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+        </footer>
+    
+      </div>
+    </div>
+    
+
+
+
+
+
+
+    <!-- SECTION 5: Who’s Behind This Banana Madness -->
+    <div id="section5" class="section">
+      <div class="peel"></div>
+      <div
+        class="relative w-full bg-[#FF499C] text-white font-['Gloria_Hallelujah'] px-6 py-8 pb-10 overflow-hidden flex flex-col justify-between md:pl-12">
+    
+        <!-- Logo -->
+        <img src="./images/just_say_banana.png" alt="Just Say Banana Logo5"
+          class="w-[150px] h-auto mb-6 md:w-[191px] md:h-[104px] logo" />
+    
+        <!-- Stars -->
+        <img src="images/star.png" class="absolute top-[35%] right-[8%] w-[28px] sm:w-[36px]" />
+        <img src="images/star.png" class="absolute bottom-[12%] left-[18%] w-[34px] sm:w-[40px]" />
+    
+        <!-- Content -->
+        <div class="flex flex-col gap-6">
+    
+          <!-- Left Aligned Title -->
+          <div class="w-full">
+            <h2
+              class="text-[#FFD900] md:text-[55px] text-[2rem] font-bold tracking-wide mb-3 relative w-fit text-left">
+              WHO’S BEHIND THIS BANANA MADNESS?
+              <img src="images/page.png" alt="Page"
+                class="absolute -top-5 -right-7 w-[40px] z-10 pointer-events-none" />
+            </h2>
+          </div>
+    
+          <!-- Main Content Section -->
+          <div class="flex flex-col-reverse md:flex-row gap-10 items-start">
+    
+            <!-- Text Block -->
+            <div class="w-full md:w-2/3 text-left text-[0.7rem] md:text-[0.9rem] leading-snug space-y-3 pr-0 md:pr-4">
+              <p>
+                <span class="text-[#FFD900]">Kristi Kaylor</span> is no stranger to big ideas–but this time, she’s gone
+                totally <span class="text-[#FFD900]">bananas!</span>
+                As CEO of
+                <span class="text-[#FFD900]">The Loft Entertainment</span>, she’s partnered with top celebrities,
+                influencers, and iconic brands like
+                <span class="text-[#FFD900]">Warner Bros. TV, NBCUniversal, Mattel, Gap, Sephora, and Coca-Cola</span>
+                to create <span class="text-[#FFD900]">unforgettable moments</span> in
+                <span class="text-[#FFD900]">entertainment</span> and marketing.
+              </p>
+    
+              <p>
+                Kristi built celebrity brands like <span class="text-[#FFD900]">2 LOVE</span> (with designs from Jessica Alba, Paris Hilton, Miley Cyrus, and 40 more celebs),
+                <span class="text-[#FFD900]">6126</span> with Lindsay Lohan, <span class="text-[#FFD900]">Mblem</span> with Mandy Moore,
+                and a dot-com with spokesperson Jennifer Aniston. Her knack for blending fame, purpose, and pop culture? Totally bananas.
+              </p>
+    
+              <p>
+                Now she’s bringing that same spark to families—turning one silly word into a playful superpower.
+                You might catch her whispering <span class="text-[#FFD900] font-bold">“Banana”</span> on set while producing celebrity-driven branded content or independent films—
+                but at home with her kids, it’s a full-blown tool, making emotional self-control playful, unexpected, and a little ridiculous.
+              </p>
+    
+              <p>
+                And it all started with an idea from the brilliant <span class="text-[#FFD900]">Matt Schwartz</span>. (Thanks, Matt!)
+              </p>
+            </div>
+    
+            <!-- Image and Links -->
+            <div
+              class="w-full md:w-1/3 flex justify-center items-center md:justify-start md:items-start flex-col text-center md:text-left -mt-6">
+              <img src="./images/krisiti.jpg" alt="Kristi" id="author"
+                class="w-[240px] h-[240px] object-cover rounded-full border-[6px] border-yellow-300">
+              <div class="mt-4 md:text-[18px] text-[0.75rem] text-[#FFD900]">
+                <p>
+                  For more info on <span class="text-white">Kristi</span> visit <br>
+                  <a href="https://www.theloftent.com">www.theloftent.com</a> or <br>
+                  follow <span class="text-white"><a href="https://www.instagram.com/theloftent/">@theloftent</a></span>
+                  & <span class="text-white"><a
+                      href="https://www.instagram.com/kristikaylor">@kristikaylor</a></span>.
+                </p>
+              </div>
+            </div>
+    
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+
+    <!-- SECTION 4-->
+ <div id="section4" class="section">
+  <div class="peel"></div>
+  <div
+    class="w-full h-screen flex flex-col md:flex-row bg-yellow-300 font-['Gloria_Hallelujah'] relative overflow-hidden"
+    id="animated-section">
+
+    <!-- Top Star -->
+    <img src="images/star.png" alt="Star Top" class="absolute top-[2%] left-[2%] w-[20px] sm:w-[28px] z-20" />
+
+    <!-- Logo -->
+    <img id="logo4"
+      src="images/just_say_banana.png"
+      alt="Just Say Banana Logo4"
+      class="absolute top-[0.1%] left-[3%] sm:top-0 sm:left-6 w-[140px] sm:w-[180px] md:w-[200px] h-auto logo pointer-events-auto" />
+
+    <!-- Text Content -->
+   <!-- Text Content -->
+<div
+class="w-full md:w-1/2 flex-1 pt-24 sm:pt-28 md:pt-32 px-5 sm:px-8 md:px-12 pb-10 text-[#FF499C] flex flex-col justify-center z-0 text-content relative gap-y-8 sm:gap-y-10 md:gap-y-0 text-left">
+
+
+      <!-- Para 1 -->
+      <p class="mb-4 sm:mb-6 pr-2 sm:pr-6 md:pr-10 
+                 text-[20px] sm:text-[24px] md:text-[28px] 
+                 leading-relaxed sm:leading-[1.8] md:leading-relaxed">
+        This is a must-read for kids—and anyone <br>
+        who’s ever wished they could hit "Undo" on <br>
+        an <span class="text-white font-bold">OUTBURST</span> (yes, that means you too, <br>
+        parents and teachers)!
+      </p>
+
+      <!-- Para 2 -->
+      <p class="mb-4 sm:mb-6 pr-4 sm:pr-10 text-[#FF499C]
+                text-[20px] sm:text-[24px] md:text-[28px] 
+                leading-relaxed sm:leading-[1.8] md:leading-relaxed relative">
+        Loaded with
+        <span class="text-white font-bold relative inline-block">
+          HUMOR
+          <img src="images/scribble.png" alt="Scribble"
+            style="position: absolute; top: 47%; left: 270%; transform: translateY(-50%); width: 48px;"
+            class="text-[#FF499C] pointer-events-none select-none z-10" />
+        </span>
+        for keeping <br>
+        your cool when the heat is on.
+      </p>
+
+      <!-- Para 3 -->
+      <p class="mt-2 sm:mt-4 md:mt-8 
+                text-[22px] sm:text-[28px] md:text-[32px] 
+                font-normal pr-4 sm:pr-8 leading-relaxed sm:leading-[1.8] md:leading-relaxed">
+        This book could just save your day <br>
+        and maybe a few <span class="text-white font-bold">FRIENDSHIPS!</span>
+      </p>
+
+      <!-- Bottom Star -->
+      <img src="images/star.png" alt="Star Bottom"
+        class="absolute bottom-[6%] right-[6%] w-[22px] sm:w-[30px] z-10" />
+    </div>
+
+    <!-- Right Side Image (Hidden on mobile) -->
+    <div class="hidden md:block md:w-1/2 h-full image-wrapper">
+      <img src="./images/dance.png" alt="Room with football boy"
+        class="w-full h-full object-cover object-center" />
+    </div>
+  </div>
+</div>
+
+    
+    
+    <!-- SECTION 3: Just Say BANANA (Without Images) -->
+    <div id="section3" class="section">
+      <div class="peel"></div>
+      <div class="w-full h-screen flex flex-col md:flex-row bg-yellow-400 font-['Gloria_Hallelujah'] relative overflow-hidden">
+    
+        <!-- Left Side Image (Visible only on desktop) -->
+        <div class="hidden md:block md:w-1/2 h-full image-wrapper">
+          <img src="./images/hey.png" alt="..." class="w-full h-full object-cover object-[center_5%]" />
+
+        </div>
+    
+        <!-- Right Side: Text -->
+        <div class="relative w-full md:w-1/2 h-screen bg-[#ff40a1] flex flex-col items-center justify-center px-4 overflow-hidden text-center">
+    
+          <!-- Decorative Stars -->
+          <img src="images/star.png" class="absolute top-[5%] left-[6%] w-[28px] sm:w-[34px]" />
+          <img src="images/star.png" class="absolute bottom-[8%] right-[12%] w-[32px] sm:w-[40px]" />
+          <img src="images/star.png" class="absolute bottom-[15%] left-[14%] w-[28px] sm:w-[34px]" />
+          <img src="images/star.png" class="absolute top-[20%] left-[80%] w-[34px] sm:w-[40px]" />
+    
+          <!-- Logo -->
+          <img src="images/just_say_banana.png" alt="Just Say Banana Logo3"
+            class="absolute top-[2vh] left-[2vw] w-[140px] sm:w-[180px] md:w-[200px] h-auto logo">
+    
+          <!-- Heading -->
+          <h1
+            class="relative mt-28 text-[38px] sm:text-[42px] md:text-[52px] lg:text-[60px] font-normal leading-tight text-white"
+            style="font-family: 'Gloria Hallelujah', cursive;">
+            <span class="relative inline-block">
+              Just
+              <img src="images/highlight1.png" alt="Highlight"
+                class="absolute w-[28px] sm:w-[34px] md:w-[40px] -translate-y-[185%] -translate-x-[85%] z-5 pointer-events-none select-none" />
+            </span>
+            say
+            <span
+              class="relative inline-block text-[#FFD900] font-bold text-[32px] sm:text-[34px] md:text-[36px] lg:text-[40px]">
+              BANANA
+              <img src="images/banana3.png" alt="Banana3"
+                class="absolute w-[80px] sm:w-[100px] md:w-[120px] -translate-y-[60%] right-0 translate-x-1/2 z-5 pointer-events-none select-none" />
+            </span>
+          </h1>
+    
+          <!-- Description -->
+          
+            <p class="mt-12 text-left md:text-left text-[22px] sm:text-[24px] md:text-[28px] leading-[1.6] text-[#FFD900] px-2 sm:px-6 md:px-8"
+  style="font-family: 'Gloria Hallelujah', cursive;">
+            is a <span class="text-white">laugh-out-loud</span> book that hands you the
+            <span class="text-white">silliest trick</span> for managing anger – so you
+            <span class="text-white">don't</span> end up saying something you'll wish you could take back.
+          </p>
+    
+          <!-- Callout Box -->
+          <div class="relative mt-14 px-6 sm:px-10 py-4 sm:py-5 bg-yellow-300 rounded-full shadow-md">
+            <img src="images/misc.png" alt="misc decoration" class="absolute -top-3 -left-3 w-[36px] sm:w-[44px]" />
+            <p class="text-[22px] sm:text-[22px] md:text-[24px] text-white tracking-tight"
+              style="font-family: 'Gloria Hallelujah', cursive;">
+              like That’s it, I’m moving to the <span class="text-[#ff40a1] font-bold">MOON!</span>
+            </p>
+          </div>
+    
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    
+
+    <!-- SECTION 2: Scroll Down Banana Page -->
+    <div class="section2 section">
+      <div class="peel"></div>
+      <div class="w-full h-screen flex flex-col md:flex-row bg-yellow-300 font-['Gloria_Hallelujah'] relative overflow-hidden">
+    
+        <!-- Left Side: Text & Graphics -->
+        <div class="yellow-section relative w-full min-h-screen flex flex-col items-center justify-center bg-[#FFD900] px-4 text-center overflow-hidden md:w-[50%]">
+    
+          <!-- Logo -->
+          <img src="images/just_say_banana.png" alt="Just Say Banana Logo2"
+            class="absolute w-[180px] sm:w-[220px] md:w-[250px] top-[24px] left-[24px] logo" />
+    
+          <!-- Stars & Dots (Visually Balanced) -->
+          <img src="images/star.png" class="absolute w-[30px] top-[6%] right-[6%]" />
+          <img src="images/star.png" class="absolute w-[30px] top-[16%] left-[8%]" />
+          <img src="images/star.png" class="absolute w-[30px] bottom-[8%] right-[10%]" />
+          <img src="images/star.png" class="absolute w-[30px] bottom-[12%] left-[12%]" />
+          <img src="images/star.png" class="absolute w-[30px] top-[22%] right-[20%]" />
+    
+          <img src="images/white.png" class="absolute w-[40px] top-[10%] left-[28%]" />
+          <img src="images/white.png" class="absolute w-[40px] top-[26%] right-[8%]" />
+          <img src="images/white.png" class="absolute w-[40px] bottom-[10%] left-[22%]" />
+          <img src="images/white.png" class="absolute w-[40px] bottom-[14%] right-[20%]" />
+          <img src="images/white.png" class="absolute w-[40px] top-[36%] left-[10%]" />
+    
+          <!-- Headings -->
+          <h1 class="text-white text-[40px] sm:text-[54px] md:text-[48px] lg:text-[56px] xl:text-[64px] leading-snug font-bold mt-[120px] sm:mt-[140px] font-['Gloria_Hallelujah']">
+            WAIT <span id="breathe" class="text-[#FF499C]">BREATHE...</span> and
+          </h1>
+    
+          <h2 class="text-[#FF499C] text-[42px] sm:text-[56px] md:text-[50px] lg:text-[58px] xl:text-[66px] leading-snug font-bold font-['Gloria_Hallelujah'] mb-10 relative inline-block">
+            just say 
+            <span class="relative inline-block">
+              BANANA
+              <img src="images/banana3.png" alt="Banana4"
+                class="absolute w-[80px] sm:w-[100px] md:w-[110px] lg:w-[120px] -translate-y-[78%] translate-x-[50%] right-0 z-10 select-none pointer-events-none" />
+               
+              </span>
+          </h2>
+        </div>
+    
+        <!-- Right Side: Football Image -->
+        <div class="hidden md:block md:w-[50%] h-full image-wrapper">
+          <img src="./images/fight.png" alt="Room with football boy"
+            class="w-full h-full object-cover object-center" />
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- Section -1 -->
+    <div id="section1" class="section relative z-60">
+      <div class="peel"></div>
+
+      <div class="relative">
+
+        <div class="pink-section w-full h-[86px] bg-[#FFD900] flex items-center overflow-hidden whitespace-nowrap">
+          <div id="warning-strip"
+            class="font-black flex gap-[40px] sm:gap-[60px] md:gap-[100px] uppercase font-['Inter'] text-[24px] sm:text-[32px] md:text-[48px] animate-marquee">
+            <span>warning</span>
+            <span>warning</span>
+            <span>warning</span>
+            <span>warning</span>
+            <span>warning</span>
+            <span>warning</span>
+            <span>warning</span>
+            <span>warning</span>
+            <span>warning</span>
+            <span>warning</span>
+            <span>warning</span>
+            <span>warning</span>
+            <span>warning</span>
+            <span>warning</span>
+            <span>warning</span>
+            <span>warning</span>
+          </div>
+        </div>
+
+
+        <div
+          class="relative w-full min-h-[calc(100vh-86px)] bg-[#FF499C] flex flex-col items-center justify-center px-4 pt-24 sm:pt-20 pb-10 text-center">
+
+
+          <img src="images/white.png" alt="White Dot"
+            class="absolute top-[14%] right-[12%] w-[48px] sm:w-[64px] md:w-[80px] object-contain z-5" />
+          <img src="images/white.png" alt="Star"
+            class="absolute top-[28%] left-[18%] w-[48px] sm:w-[56px] md:w-[64px] object-contain z-5" />
+          <img src="images/white.png" alt="Star"
+            class="absolute bottom-[43%] right-[6%] w-[48px] sm:w-[56px] md:w-[64px] object-contain z-5" />
+          <img src="images/white.png" alt="White Dot"
+            class="absolute bottom-[10%] left-[20%] w-[48px] sm:w-[64px] md:w-[80px] object-contain" />
+          <img src="images/white.png" alt="White Dot"
+            class="absolute bottom-[4%] right-[30%] w-[48px] sm:w-[64px] md:w-[80px] object-contain" />
+          <img src="images/white.png" alt="White Dot"
+            class="absolute bottom-[40%] left-[5%] w-[48px] sm:w-[64px] md:w-[80px] object-contain" />
+
+          <img src="images/just_say_banana.png" alt="Just Say Banana Logo7"
+            class="absolute w-[120px] sm:w-[140px] md:w-[176px] h-auto top-[16px] sm:top-[24px] left-[16px] sm:left-[24px] logo" />
+
+
+          <div style="font-family: 'Gloria Hallelujah', cursive, sans-serif;" class="max-w-[90%] relative inline-block">
+
+
+            <h1
+              class="text-white text-[36px] sm:text-[54px] md:text-[90px] leading-tight uppercase font-normal break-words">
+              CAUTION!
+            </h1>
+
+
+
+
+            <img src="images/misc3.png" alt="misc" class="absolute w-[36px] sm:w-[48px] md:w-[56px]
+                     top-[4%] -translate-y-1/2 
+                     left-[67%] 
+                     z-1 pointer-events-none" />
+
+
+                     <h2
+                     class="text-white text-[36px] sm:text-[54px] md:text-[90px] leading-tight uppercase font-normal break-words mt-4">
+                     
+                     <span class="relative inline-block">
+                       <span class="relative z-10">THIS</span>
+                   
+                       <!-- misc3.png perfectly on 'T' -->
+                       <img src="images/misc3.png" alt="misc"
+                         class="absolute w-[28px] sm:w-[38px] md:w-[46px]
+                                -top-[7%] left-0 translate-x-[-60%] 
+                                pointer-events-none select-none z-0" />
+                     </span>
+                   
+                     BOOK IS 
+                     <span class="text-yellow-300">BANANAS!</span>
+                   </h2>
+                   
+           
+          </div>
+
+
+       <div
+  class="text-yellow-300 text-[18px] sm:text-[26px] md:text-[36px] leading-snug mt-10 font-['Gloria_Hallelujah'] px-4 sm:px-8 max-w-[90%]">
+  <p>Your temperature is <span class="text-white font-bold">RISING</span>, your heart is pounding,</p>
+  <p>and you’re this close to</p>
+  <p>saying something you don’t really mean!</p>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+  </div>
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.36/bundled/lenis.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
