@@ -502,26 +502,26 @@ window.addEventListener('keydown', function (e) {
 
 });
 
-let prevX = 0
-let prevY = 0
+// let prevX = 0
+// let prevY = 0
 
-window.addEventListener('pointerdown', function (e) {
-  prevX = e.clientX;
-  prevY = e.clientY;
-})
+// window.addEventListener('pointerdown', function (e) {
+//   prevX = e.clientX;
+//   prevY = e.clientY;
+// })
 
-window.addEventListener('pointerup', function (e) {
-  let w = window.innerWidth;
-  let h = window.innerHeight;
-  let y = e.clientY;
-  let x = e.clientX;
+// window.addEventListener('pointerup', function (e) {
+//   let w = window.innerWidth;
+//   let h = window.innerHeight;
+//   let y = e.clientY;
+//   let x = e.clientX;
 
-  if (y - prevY < prevX - x)
-    flipNext();
-  else
-    flipPrev();
+//   if (y - prevY < prevX - x)
+//     flipNext();
+//   else
+//     flipPrev();
 
-});
+// });
 
 const DELTATHRESHOLDTOUCH = 30; // pixels for touch
 let touchStartY = 0;
