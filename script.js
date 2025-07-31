@@ -420,7 +420,7 @@ window.addEventListener("load", () => {
   });
 });
 
-const SECTIONS = ['#section1', '.section2', '#section3', '#section4', '#section5', '#section6'];
+const SECTIONS = ['#section1', '.section2', '#section3', '#section4', '#section5', '#section6', '#section7'];
 let secId = 0;
 const PEELLENGTH = 2;
 const DURATION = 1.2;
@@ -564,3 +564,12 @@ bookContainer.addEventListener("mousemove", (e) => {
 bookContainer.addEventListener("mouseleave", () => {
   floatingText.classList.add("hidden");
 });
+
+function scrollToSection7(event) {
+  event.preventDefault(); // stops default anchor behavior
+  const target = document.getElementById("section7");
+  if (target) {
+    target.scrollIntoView({ behavior: "smooth" });
+  }
+}
+
