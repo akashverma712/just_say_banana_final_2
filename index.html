@@ -170,33 +170,33 @@
     <!-- SECTION 5: Who’s Behind This Banana Madness -->
     <div id="section5" class="section">
       <div class="peel"></div>
-      <div class="relative w-full bg-[#FF499C] text-white font-['Gloria_Hallelujah'] px-6 py-8 md:px-12 md:py-10 overflow-hidden flex flex-col justify-between">
+      <div class="relative w-full min-h-screen bg-[#FF499C] text-white font-['Gloria_Hallelujah'] px-4 sm:px-6 md:px-12 py-8 md:py-10 overflow-hidden flex flex-col justify-start md:justify-between">
     
         <!-- Logo -->
         <img src="./images/just_say_banana.png" alt="Just Say Banana Logo5"
-          class="w-[150px] md:w-[191px] h-auto mb-6 logo" />
+          class="w-[100px] sm:w-[140px] md:w-[160px] xl:w-[180px] h-auto mb-4 md:mb-6 logo" />
     
         <!-- Stars -->
-        <img src="./images/star.png" class="absolute top-[35%] right-[8%] w-[28px] sm:w-[36px]" />
-        <img src="./images/star.png" class="absolute bottom-[12%] left-[18%] w-[34px] sm:w-[40px]" />
+        <img src="./images/star.png" class="absolute top-[35%] right-[8%] w-[24px] sm:w-[32px] md:w-[36px]" />
+        <img src="./images/star.png" class="absolute bottom-[12%] left-[18%] w-[30px] sm:w-[36px] md:w-[40px]" />
     
         <!-- Content -->
-        <div class="flex flex-col gap-8 md:gap-10">
+        <div class="flex flex-col gap-6 md:gap-8 flex-grow justify-center">
     
           <!-- Title -->
           <div class="w-full">
-            <h2 class="text-[#FFD900] text-[2rem] md:text-[55px] font-bold tracking-wide mb-3 relative w-fit text-left leading-snug">
+            <h2 class="text-[#FFD900] text-[clamp(1.4rem,4.2vw,3.2rem)] font-bold tracking-wide mb-3 relative w-fit text-left leading-tight max-w-full">
               WHO’S BEHIND THIS BANANA MADNESS?
               <img src="./images/page.png" alt="Page"
-                class="absolute -top-5 -right-7 w-[40px] z-10 pointer-events-none" />
+                class="absolute -top-5 -right-7 w-[36px] sm:w-[40px] z-10 pointer-events-none" />
             </h2>
           </div>
     
           <!-- Main Content -->
-          <div class="flex flex-col-reverse md:flex-row gap-10 items-start">
+          <div class="flex flex-col-reverse md:flex-row gap-6 md:gap-10 items-start w-full">
     
             <!-- Text Block -->
-            <div class="w-full md:w-2/3 text-left text-[0.75rem] sm:text-[0.85rem] md:text-[0.95rem] leading-snug space-y-4 md:pr-6">
+            <div class="w-full md:w-2/3 text-left text-[clamp(0.75rem,1.8vw,1rem)] leading-relaxed space-y-3 md:pr-6">
               <p>
                 <span class="text-[#FFD900]">Kristi Kaylor</span> is no stranger to big ideas–but this time, she’s gone
                 totally <span class="text-[#FFD900]">bananas!</span> As CEO of
@@ -224,11 +224,11 @@
             </div>
     
             <!-- Image + Links -->
-            <div class="w-full md:w-1/3 flex flex-col items-center md:items-start text-center md:text-left -mt-4">
+            <div class="w-full md:w-1/3 flex flex-col items-center md:items-start text-center md:text-left">
               <img src="./images/krisiti.jpg" alt="Kristi" id="author"
-                class="w-[200px] sm:w-[220px] md:w-[240px] h-[200px] sm:h-[220px] md:h-[240px] object-cover rounded-full border-[6px] border-yellow-300" />
+                class="w-[160px] sm:w-[190px] md:w-[220px] h-[160px] sm:h-[190px] md:h-[220px] object-cover rounded-full border-[6px] border-yellow-300" />
     
-              <div class="mt-4 text-[#FFD900] text-[0.75rem] sm:text-sm md:text-[18px] leading-relaxed">
+              <div class="mt-3 text-[#FFD900] text-[clamp(0.7rem,1.6vw,1rem)] leading-relaxed">
                 <p>
                   For more info on <span class="text-white">Kristi</span> visit <br>
                   <a href="https://www.theloftent.com" class="underline">www.theloftent.com</a> or <br>
@@ -242,6 +242,8 @@
         </div>
       </div>
     </div>
+    
+
     
     
 
