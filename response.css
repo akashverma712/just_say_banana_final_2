@@ -69,9 +69,9 @@
         font-size: 40px;
     }
 
-    #section5 p {
+    /* #section5 p {
         font-size: 16px;
-    }
+    } */
 
     #author {
         width: 150px;
@@ -136,10 +136,10 @@
     #section5 h2 {
         font-size: 40px;
     }
-
+/* 
     #section5 p {
         font-size: 14px;
-    }
+    } */
 
     #author {
         width: 200px;
@@ -204,10 +204,10 @@
     #section5 h2 {
         font-size: 50px;
     }
-
+/* 
     #section5 p {
         font-size: 20px;
-    }
+    } */
 
     #author {
         width: 330px;
